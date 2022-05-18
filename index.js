@@ -1,9 +1,22 @@
 const dar=document;
 function dark()
 {
-    dar.getElementsId('main').style.backgroundColor("black");
+    // document.getElementsId('main').style.backgroundColor="#fffaaa";
+    document.getElementById('main').style.backgroundColor='black';
+    dar.getElementById('buttom').innerHTML='light';
+    dar.getElementById('once').style.color='white';
+    dar.getElementById('you').style.color='black';
+    dar.getElementById('you').style.backgroundColor='white';
+    dar.getElementById('became').style.color='white';
+    dar.getElementById('become').style.color='white';
+    dar.getElementById('fear').style.color='black';
+    dar.getElementById('fear').style.backgroundColor='white';
+    dar.getElementById('life').style.color='black';
+    dar.getElementById('life').style.backgroundColor='white';
+    dar.getElementById('limit').style.color='black';
+    dar.getElementById('limit').style.backgroundColor='white';
 }
-dark();
+// dark();
 
 
 

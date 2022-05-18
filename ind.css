@@ -7,7 +7,7 @@
 } */
 .nav_bar{
     background-color: black;
-    color: white;
+    color: #ffffff;
     height: 25px;
     margin: auto;
     flex-shrink: initial;
@@ -44,7 +44,7 @@
 {
     background-color: white;
     height: 700px;
-    margin-top: 60PX;
+    padding-top: 80PX;
 }
 .black-main
 {
